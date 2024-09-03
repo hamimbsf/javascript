@@ -80,11 +80,21 @@ let maxScore = highestScore(scores);
 console.log(maxScore);
  */
 
-let sum=0
-for (let i = 0; i < 100; i++) {
-    if (i%3==0,i%7==0) {
-        sum = sum+i
-        console.log("sum",sum);
+/* 1d array */
+/* console.clear();
+function highestScore(scores) {
+    let max=scores[0];
+   for (let i = 1; i < scores.length; i++) {
+    if (max<scores[i]) {
+        max=scores[i];
     }
-    
+   }
+   return max; 
 }
+
+let scores =[11,42,31,65,98,105];
+console.log( highestScore(scores));
+ */
+
+
+
